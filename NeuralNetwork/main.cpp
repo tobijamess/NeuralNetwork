@@ -3,7 +3,7 @@
 
 int main() {
 	std::vector<uint32_t> topology = { 2, 3, 1 };
-	SimpleNeuralNetwork neuralNetwork(topology, 0.001f);
+	SimpleNeuralNetwork neuralNetwork(topology, 0.1f);
 	std::vector<std::vector<float>> targetInputs {
 		{ 0.0f, 0.0f },
 		{ 1.0f, 1.0f },
@@ -16,7 +16,7 @@ int main() {
 		{ 1.0f },
 		{ 1.0f }
 	};
-	uint32_t epoch = 100000000;
+	uint32_t epoch = 1000000;
 	std::cout << "Training started.\n";
 	for (uint32_t i = 0; i < epoch; i++) {
 		uint32_t index = rand() % 4;

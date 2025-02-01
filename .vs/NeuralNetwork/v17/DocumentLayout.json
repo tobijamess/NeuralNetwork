@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\Repos\\NeuralNetwork\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|F:\\Repos\\NeuralNetwork\\NeuralNetwork\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|solutionrelative:NeuralNetwork\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|F:\\Repos\\NeuralNetwork\\NeuralNetwork\\neuralnetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|solutionrelative:NeuralNetwork\\neuralnetwork.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|F:\\Repos\\NeuralNetwork\\NeuralNetwork\\matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|solutionrelative:NeuralNetwork\\matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|F:\\Repos\\NeuralNetwork\\NeuralNetwork\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DE985D8A-CFED-4547-A66E-89BF73124A18}|NeuralNetwork\\NeuralNetwork.vcxproj|solutionrelative:NeuralNetwork\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "neuralnetwork.h",
               "DocumentMoniker": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\neuralnetwork.h",
               "RelativeDocumentMoniker": "NeuralNetwork\\neuralnetwork.h",
               "ToolTip": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\neuralnetwork.h",
               "RelativeToolTip": "NeuralNetwork\\neuralnetwork.h",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKUAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-17T07:11:53.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "matrix.h",
               "DocumentMoniker": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\matrix.h",
               "RelativeDocumentMoniker": "NeuralNetwork\\matrix.h",
               "ToolTip": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\matrix.h",
               "RelativeToolTip": "NeuralNetwork\\matrix.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAowHsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-15T02:52:11.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\main.cpp",
               "RelativeDocumentMoniker": "NeuralNetwork\\main.cpp",
               "ToolTip": "F:\\Repos\\NeuralNetwork\\NeuralNetwork\\main.cpp",
               "RelativeToolTip": "NeuralNetwork\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T02:51:33.765Z",
               "EditorCaption": ""

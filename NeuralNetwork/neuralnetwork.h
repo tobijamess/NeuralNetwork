@@ -113,15 +113,7 @@ public:
 			_valueMatrices[i] = values;
 			values = values.multiply(_weightMatrices[i]);
 			values = values.add(_biasMatrices[i]);
-			values = values.applyFunction(relu);
-
-			// Apply Relu for hidden layers and sigmoid for the output layer to get a result within 0 - 1 range.
-			if (i == _weightMatrices.size() - 1) {
-				values = values.applyFunction(sigmoid);	// For output layer.
-			}
-			else {
-				values = values.applyFunction(relu);	// For hidden layers.
-			}
+			values = values.applyFunction(sigmoid);
 		}
 		_valueMatrices[_weightMatrices.size()] = values;
 		return true;
@@ -148,7 +140,7 @@ public:
 				_weightMatrices[i].transpose()
 			);
 			Matrix derivedOutput = _valueMatrices[i + 1].applyFunction(
-				i == _weightMatrices.size() - 1 ? derivativeSigmoid : derivativeRelu
+				derivativeSigmoid
 			);
 			Matrix gradients = errors.multiplyElements(derivedOutput);
 			gradients = gradients.multiplyScalar(_learningRate);

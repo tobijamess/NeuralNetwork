@@ -2,10 +2,10 @@
 F:\Repos\NeuralNetwork\NeuralNetwork\neuralnetwork.h(107,27): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
   (compiling source file 'main.cpp')
   
-F:\Repos\NeuralNetwork\NeuralNetwork\neuralnetwork.h(137,34): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+F:\Repos\NeuralNetwork\NeuralNetwork\neuralnetwork.h(129,34): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
   (compiling source file 'main.cpp')
   
-F:\Repos\NeuralNetwork\NeuralNetwork\neuralnetwork.h(144,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\Repos\NeuralNetwork\NeuralNetwork\neuralnetwork.h(136,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'main.cpp')
   
   NeuralNetwork.vcxproj -> F:\Repos\NeuralNetwork\x64\Debug\NeuralNetwork.exe
